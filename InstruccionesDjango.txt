@@ -1,0 +1,4 @@
+1º - cd webdjango
+2º - myvenv\Scripts\activate
+3º - python manage.py runserver
+4º - http://127.0.0.1:8000/ (browser)
