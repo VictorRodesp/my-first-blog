@@ -2,3 +2,20 @@
 2º - myvenv\Scripts\activate
 3º - python manage.py runserver
 4º - http://127.0.0.1:8000/ (browser)
+
+
+Una cosa más: ¡Tiempo de despliegue!
+Veamos si todo esto funciona en PythonAnywhere. ¡Tiempo de hacer otro despliegue!
+
+Lo primero, haz commit de tus últimos cambios y súbelo (push) a GitHub:
+command-line
+$ git status
+$ git add --all .
+$ git status
+$ git commit -m "Added views to create/edit blog post inside the site."
+$ git push
+Luego, en una consola Bash de PythonAnywhere
+PythonAnywhere command-line
+$ cd ~/<your-pythonanywhere-domain>.pythonanywhere.com
+$ git pull
+[...]
